@@ -37,6 +37,6 @@ app.get("/api/getMeta/:url", (req, res) => {
 const hostname = "localhost";
 const port = process.env.PORT || 9000;
 
-app.listen((port, hostname) => {
-  console.log("Running");
+app.listen(port, () => {
+  console.log("Running on", port);
 });
