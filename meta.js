@@ -26,7 +26,7 @@ app.get("/api/getMeta/:url", (req, res) => {
   console.log(url);
   urlMetadata("https://" + url).then(
     function(metadata) {
-      res.json(JSON.stringify(metadata));
+      res.json(metadata);
     },
     function(error) {
       res.status(404).json({ message: error });
