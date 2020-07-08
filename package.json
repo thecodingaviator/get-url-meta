@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nom i && node meta.js",
+    "start": "npm i && node meta.js",
     "dev": "npm i && nodemon meta.js"
   },
   "repository": {
@@ -24,6 +24,6 @@
     "url-metadata": "^2.4.0"
   },
   "engines": {
-      "node": "12.x"
+    "node": "12.x"
   }
 }
