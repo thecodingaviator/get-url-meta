@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i && node meta.js",
+    "start": "node meta.js",
     "dev": "npm i && nodemon meta.js"
   },
   "repository": {
