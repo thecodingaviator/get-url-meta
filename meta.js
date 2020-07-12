@@ -21,9 +21,9 @@ app.get("/api/getMeta", (req, res) => {
 });
 
 app.get("/api/getMeta/:url", (req, res) => {
-  const url = req.params.url;
-  console.log("yes");
-  console.log(url);
+  var url = req.params.url;
+  const regex = /&\;/gi;
+  url = url.replace(regex , '/')
   urlMetadata("https://" + url).then(
     function(metadata) {
       res.json(metadata);
