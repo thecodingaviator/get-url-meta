@@ -56,7 +56,7 @@ Running on 9000
 ### 1. GET `/api/getMeta`
 
 - **Description:**  
-  Returns metadata for the predefined URL: `https://bit.ly/2ePIrDy`.
+  Returns metadata for the predefined URL: `https://facebook.com`.
 
 - **Usage Example:**
 
