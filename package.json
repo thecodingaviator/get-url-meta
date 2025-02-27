@@ -21,7 +21,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "url-metadata": "^2.4.0"
+    "url-metadata": "^4.1.1"
   },
   "engines": {
     "node": "12.x"
