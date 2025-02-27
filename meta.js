@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/api/getMeta", (req, res) => {
-  urlMetadata("https://bit.ly/2ePIrDy").then(
+  urlMetadata("https://google.com").then(
     function(metadata) {
       res.json(JSON.stringify(metadata));
     },
